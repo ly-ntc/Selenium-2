@@ -11,7 +11,7 @@ public class KeyPressTests extends BaseTests {
     public void testBackspace() {
         var keyPage = homePage.clickKeyPress();
         keyPage.enterText("A" + Keys.BACK_SPACE);
-        assertEquals(keyPage.getResultText(), "You entered: BACK_SPACE");
+        assertEquals(keyPage.getResultText(), "You entered: BACK_SPACE?");
     }
     
 }
