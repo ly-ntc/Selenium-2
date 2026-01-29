@@ -26,10 +26,9 @@ public class BaseTests {
 
     @BeforeClass
     public void setUp() {
-        driver = new ChromeDriver();
+        driver = new  ChromeDriver();
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         goHome();
-
 //        driver.manage().window().maximize();
         //responsive
 //        driver.manage().window().setSize(new Dimension(375, 812));
